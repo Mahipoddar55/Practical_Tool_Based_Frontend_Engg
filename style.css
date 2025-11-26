@@ -1,0 +1,42 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Container layout */
+.app-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+    background-color: #f7f7f7;
+}
+
+/* Card styling */
+.task-card {
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* H2 transition */
+.title-box {
+    transition: all 0.5s ease;
+    min-height: 4rem;
+}
+
+/* Button transitions */
+.change-button {
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.change-button:hover:not(:disabled) {
+    background-color: #1d4ed8;
+}
+
+.change-button:active:not(:disabled) {
+    transform: scale(0.98);
+}
