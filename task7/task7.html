@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7: Change Text on Button Click</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <div class="task-card">
+            
+            <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">
+                Task 7: DOM Manipulation
+            </h1>
+
+            <!-- The H2 element to change -->
+            <h2 id="title" class="title-box text-center text-xl font-semibold p-4 
+                                rounded-lg border-2 border-red-300 text-red-600 
+                                bg-red-50 mb-8">
+                Before Click
+            </h2>
+
+            <!-- The button -->
+            <button 
+                id="change-btn"
+                onclick="changeText()"
+                class="change-button w-full py-3 px-4 bg-blue-600 text-white font-semibold 
+                       rounded-lg shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 
+                       focus:ring-blue-500/50">
+                Change Text
+            </button>
+            
+        </div>
+    </div>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
