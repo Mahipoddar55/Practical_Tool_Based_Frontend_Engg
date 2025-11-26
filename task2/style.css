@@ -1,0 +1,16 @@
+
+        /* CSS to style the elements */
+      img {
+  width: 300px; /* Sets the width to 300 pixels */
+  height: 200px; /* Sets the height to 200 pixels */
+}
+        
+        .p {
+            margin-top: 20px;
+            text-align: center; /* Optional: makes the text look better centered under the image */
+        }
+        
+        .h2 {
+            text-align: center; /* Optional: centers the heading */
+        }
+ 
